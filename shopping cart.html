@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shopping Cart</title>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<body>
+  <div id="container">
+  <div class="row">
+    <div class="card col-md-3 mt-1" ><div align="center"><input type="checkbox" id="c1" onclick="check()"><br><img src="a.jpg" style="width: 200px; height: 200px;"><br><b>Name:Item1</b><br><b>Description:Item1</b><br><b>Price:100</b><br><b>Qty:<input type="text" id="q1"></b></div></div>
+    <div class="card col-md-3 mt-1" ><div align="center"><input type="checkbox" id="c2" onclick="check()"><br><img src="b.jpg" style="width: 200px; height: 200px;"><br><b>Name:Item2</b><br><b>Description:Item2</b><br><b>Price:100</b><br><b>Qty:<input type="text" id="q2"></b></div></div>
+    <div class="card col-md-3 mt-1" ><div align="center"><input type="checkbox" id="c3" onclick="check()"><br><img src="c.jpg" style="width: 200px; height: 200px;"><br><b>Name:Item3</b><br><b>Description:Item3</b><br><b>Price:100</b><br><b>Qty:<input type="text" id="q3"></b></div></div>
+    <div class="card col-md-3 mt-1" ><div align="center"><input type="checkbox" id="c4" onclick="check()"><br><img src="d.jpg" style="width: 200px; height: 200px;"><br><b>Name:Item4</b><br><b>Description:Item4</b><br><b>Price:100</b><br><b>Qty:<input type="text" id="q4"></b></div></div>
+  </div>
+<br><div class="row ">
+    <div class="card col-md-3 p-3 mb-2 bg-dark text-white" ><div align="center"><input type="checkbox" id="c5" onclick="check()"><br><img src="e.jpg" style="width: 200px; height: 200px;"><br><b>Name:Item5</b><br><b>Description:Item5</b><br><b>Price:100</b><br><b>Qty:<input type="text" id="q5"></b></div></div>
+    <div class="card col-md-3 p-3 mb-2 bg-dark text-white" ><div align="center"><input type="checkbox" id="c6" onclick="check()"><br><img src="a.jpg" style="width: 200px; height: 200px;"><br><b>Name:Item6</b><br><b>Description:Item6</b><br><b>Price:100</b><br><b>Qty:<input type="text" id="q6"></b></div></div>
+    <div class="card col-md-3 p-3 mb-2 bg-dark text-white" ><div align="center"><input type="checkbox" id="c7" onclick="check()"><br><img src="b.jpg" style="width: 200px; height: 200px;"><br><b>Name:Item7</b><br><b>Description:Item7</b><br><b>Price:100</b><br><b>Qty:<input type="text" id="q7"></b></div></div>
+    <div class="card col-md-3 p-3 mb-2 bg-dark text-white" ><div align="center"><input type="checkbox" id="c8" onclick="check()"><br><img src="c.jpg" style="width: 200px; height: 200px;"><br><b>Name:Item8</b><br><b>Description:Item8</b><br><b>Price:100</b><br><b>Qty:<input type="text" id="q8"></b></div></div>
+  </div>
+<br><div class="row">
+    <div class="card col-md-3 " ><div align="center"><input type="checkbox" id="c9" onclick="check()"><br><img src="d.jpg" style="width: 200px; height: 200px;"><br><b>Name:Item9</b><br><b>Description:Item9</b><br><b>Price:100</b><br><b>Qty:<input type="text" id="q9"></b></div></div>
+    <div class="card col-md-3 " ><div align="center"><input type="checkbox" id="c10" onclick="check()"><br><img src="e.jpg" style="width: 200px; height: 200px;"><br><b>Name:Item10</b><br><b>Description:Item10</b><br><b>Price:100</b><br><b>Qty:<input type="text" id="q10"></b></div></div>
+    <div class="card col-md-3" ><div align="center"><input type="checkbox" id="c11" onclick="check()"><br><img src="a.jpg" style="width: 200px; height: 200px;"><br><b>Name:Item11</b><br><b>Description:Item11</b><br><b>Price:100</b><br><b>Qty:<input type="text" id="q11"></b></div></div>
+    <div class="card col-md-3" ><div align="center"><input type="checkbox" id="c12" onclick="check()"><br><img src="b.jpg" style="width: 200px; height: 200px;"><br><b>Name:Item12</b><br><b>Description:Item12</b><br><b>Price:100</b><br><b>Qty:<input type="text" id="q12"></b></div></div>
+  </div>
+<br><div class="row">
+    <div class="card col-md-3 p-3 mb-2 bg-dark text-white border-primary" ><div align="center"><input type="checkbox" id="c13" onclick="check()"><br><img src="c.jpg" style="width: 200px; height: 200px;"><br><b>Name:Item13</b><br><b>Description:Item13</b><br><b>Price:100</b><br><b>Qty:<input type="text" id="q13"></b></div></div>
+    <div class="card col-md-3 p-3 mb-2 bg-dark text-white" ><div align="center"><input type="checkbox" id="c14" onclick="check()"><br><img src="d.jpg" style="width: 200px; height: 200px;"><br><b>Name:Item14</b><br><b>Description:Item14</b><br><b>Price:100</b><br><b>Qty:<input type="text" id="q14"></b></div></div>
+    <div class="card col-md-3 p-3 mb-2 bg-dark text-white border-primary" ><div align="center"><input type="checkbox" id="c15" onclick="check()"><br><img src="e.jpg" style="width: 200px; height: 200px;"><br><b>Name:Item15</b><br><b>Description:Item15</b><br><b>Price:100</b><br><b>Qty:<input type="text" id="q15"></b></div></div>
+    <div class="card col-md-3 p-3 mb-2 bg-dark text-white" ><div align="center"><input type="checkbox" id="c16" onclick="check()"><br><img src="a.jpg" style="width: 200px; height: 200px;"><br><b>Name:Item16</b><br><b>Description:Item16</b><br><b>Price:100</b><br><b>Qty:<input type="text" id="q16"></b></div></div>
+  </div>
+  </div>
+
+
+<br>
+<div id="oi"></div>
+
+ <div>
+ <b> <span id="item1" style="width: 200px ;"></span>
+  <span id="price1" class="col-md-3"></span>
+  <span id="qty1" class="col-md-3" ></span>
+  <span id="total1" class="col-md-3"></span>
+</div>  
+<div>
+
+  <span id="item2" style="width: 200px ;"></span>
+  <span id="price2" class="col-md-3"></span>
+  <span id="qty2" class="col-md-3"></span>
+  <span id="total2" class="col-md-3"></span>
+</div>  
+<div>
+  
+  <span id="item3" style="width: 200px ;"></span>
+  <span id="price3" class="col-md-3"></span>
+  <span id="qty3" class="col-md-3"></span>
+  <span id="total3" class="col-md-3"></span>
+</div>  
+<div>
+  
+  <span id="item4" style="width: 200px ;"></span>
+  <span id="price4" class="col-md-3"></span>
+  <span id="qty4" class="col-md-3"></span>
+  <span id="total4" class="col-md-3"></span>
+</div>  
+<div>
+  
+  <span id="item5" style="width: 200px ;"></span>
+  <span id="price5" class="col-md-3"></span>
+  <span id="qty5" class="col-md-3"></span>
+  <span id="total5" class="col-md-3"></span>
+</div>  
+<div>
+  
+  <span id="item6" style="width: 200px ;"></span>
+  <span id="price6" class="col-md-3"></span>
+  <span id="qty6" class="col-md-3"></span>
+  <span id="total6" class="col-md-3"></span>
+
+</div>  
+<div>
+  
+  <span id="item7" style="width: 200px ;"></span>
+  <span id="price7" class="col-md-3"></span>
+  <span id="qty7" class="col-md-3"></span>
+  <span id="total7" class="col-md-3"></span>
+</div>  
+<div>
+  
+  <span id="item8" style="width: 200px ;"></span>
+  <span id="price8" class="col-md-3"></span>
+  <span id="qty8" class="col-md-3"></span>
+  <span id="total8" class="col-md-3"></span>
+</div>  
+<div>
+  
+  <span id="item9" style="width: 200px ;"></span>
+  <span id="price9" class="col-md-3"></span>
+  <span id="qty9" class="col-md-3"></span>
+  <span id="total9" class="col-md-3"></span>
+</div>  
+<div>
+  
+  <span id="item10" style="width: 200px ;"></span>
+  <span id="price10" class="col-md-3"></span>
+  <span id="qty10" class="col-md-3"></span>
+  <span id="total10" class="col-md-3"></span>
+</div>  
+<div>
+  
+  <span id="item11" style="width: 200px ;"></span>
+  <span id="price11" class="col-md-3"></span>
+  <span id="qty11" class="col-md-3"></span>
+  <span id="total11" class="col-md-3"></span>
+</div>  
+<div>
+  
+  <span id="item12" style="width: 200px ;"></span>
+  <span id="price12" class="col-md-3"></span>
+  <span id="qty12" class="col-md-3"></span>
+  <span id="total12" class="col-md-3"></span>
+</div>  
+<div>
+  <span id="sp1"></span>
+  <span id="item13" style="width: 200px ;"></span>
+  <span id="price13" class="col-md-3"></span>
+  <span id="qty13" class="col-md-3"></span>
+  <span id="total13" class="col-md-3"></span>
+</div>  
+<div>
+  
+  <span id="item14" style="width: 200px ;"></span>
+  <span id="price14" class="col-md-3"></span>
+  <span id="qty14" class="col-md-3"></span>
+  <span id="total14" class="col-md-3"></span>
+</div>  
+<div>
+  <span id="sp2"></span> 
+  <span id="item15" class="col-md-3" style="width: 200px ;"></span>
+  <span id="price15" class="col-md-3" style="width: 200px"></span>
+  <span id="qty15" class="col-md-3" style="width: 200px"></span>
+  <span id="total15" class="col-md-3" style="width: 200px"></span>
+</div>  
+  <div>
+
+  <span id="item16" style="width: 200px ;"></span>
+  <span id="price16" class="col-md-3"></span>
+  <span id="qty16" class="col-md-3"></span>
+  <span id="total16" class="col-md-3"></span>
+</b>
+</div>
+<hr>
+<!-- <b><div id="sum1" class="bg bg-primary col-md-1"></div></b> -->
+<input type="submit" value="Display Total Ammount Of Shopping" class="btn btn-primary rounded mt-1 ml-0 px-2 p-3" onclick="cw()">
+  <script>
+     let sum=0;
+    function check(){
+     
+      document.getElementById("oi").innerHTML = '<h3>Order Items</h3>'
+     
+
+      var che1=document.getElementById("c1");
+      if (che1.checked == true) {
+      var val1 = document.getElementById("q1").value;
+      var item1 = 100;
+      var a1 = val1 * item1;
+      sum=sum+a1;
+        if(val1!=0){
+        document.getElementById("item1").innerHTML = "item01";
+        document.getElementById("price1").innerHTML = item1;
+        document.getElementById("qty1").innerHTML = val1;
+        document.getElementById("total1").innerHTML = a1;
+      }
+      
+    else{
+      alert("Please Select Quantity Of Item 01...!!!")
+    }
+  }
+    var che2=document.getElementById("c2");
+    if (che2.checked == true) {
+    var val2 = document.getElementById("q2").value;
+    var item2 = 100;
+    var a2 = val2 * item2;
+    sum=sum+a2;
+        if(val2!=0){
+        
+        document.getElementById("item2").innerHTML = "item02";
+        document.getElementById("price2").innerHTML = item2;
+        document.getElementById("qty2").innerHTML = val2;
+        document.getElementById("total2").innerHTML = a2;
+      }
+      else{
+        alert("Please Select Quantity Of Item 02...!!!")
+      }
+    }
+      var che3=document.getElementById("c3");
+      if (che3.checked == true) {
+      var val3 = document.getElementById("q3").value;
+      var item3 = 100;
+      var a3 = val3 * item3;
+      sum=sum+a3;
+        if(val3!=0){
+        document.getElementById("ite3").innerHTML = "item03";
+        document.getElementById("price3").innerHTML = item3;
+        document.getElementById("qty3").innerHTML = val3;
+        document.getElementById("total3").innerHTML = a3;
+      }
+      else{
+        alert("Please Select Quantity Of Item 03...!!!")
+      }
+    }
+      var che4=document.getElementById("c4");
+      if (che4.checked == true) {
+      var val4 = document.getElementById("q4").value;
+      var item4 = 100;
+      var a4 = val4 * item4;
+      sum=sum+a4;
+        if(val4!=0){
+        
+          document.getElementById("item4").innerHTML = "item04";
+        document.getElementById("price4").innerHTML = item4;
+        document.getElementById("qty4").innerHTML = val4;
+        document.getElementById("total4").innerHTML = a4;
+      }
+      else{
+        alert("Please Select Quantity Of Item 04...!!!")
+      }
+    }
+      var che5=document.getElementById("c5");
+      if (che5.checked == true) {
+      var val5 = document.getElementById("q5").value;
+      var item5 = 100;
+      var a5 = val5 * item5;
+      sum=sum+a5;
+        if(val5!=0){
+        
+        document.getElementById("item5").innerHTML = "item05";
+        document.getElementById("price5").innerHTML = item5;
+        document.getElementById("qty5").innerHTML = val5;
+        document.getElementById("total5").innerHTML = a5;
+      }
+      else{
+        alert("Please Select Quantity Of Item 05...!!!")
+      }
+    }
+      var che6=document.getElementById("c6");
+      if (che6.checked == true) {
+      var val6 = document.getElementById("q6").value;
+      var item6 = 100;
+      var a6 = val6 * item6;
+      sum=sum+a6;
+        if(val6!=0){
+        
+        document.getElementById("item6").innerHTML = "item06";
+        document.getElementById("price6").innerHTML = item6;
+        document.getElementById("qty6").innerHTML = val6;
+        document.getElementById("total6").innerHTML = a6;
+      }
+      else{
+        alert("Please Select Quantity Of Item 06...!!!")
+      }
+    }
+      var che7=document.getElementById("c7");
+      if (che7.checked == true) {
+      var val7 = document.getElementById("q7").value;
+      var item7 = 100;
+      var a7 = val7 * item7;
+      sum=sum+a7;
+        if(val7!=0){
+        
+        document.getElementById("item7").innerHTML = "item07";
+        document.getElementById("price7").innerHTML = item7;
+        document.getElementById("qty7").innerHTML = val7;
+        document.getElementById("total7").innerHTML = a7;
+      }
+      else{
+        alert("Please Select Quantity Of Item 07...!!!")
+      }
+    }
+      var che8=document.getElementById("c8");
+      if (che8.checked == true) {
+      var val8 = document.getElementById("q8").value;
+      var item8 = 100;
+      var a8 = val8 * item8;
+      sum=sum+a8;
+        if(val8!=0){
+        
+        document.getElementById("item8").innerHTML = "item08";
+        document.getElementById("price8").innerHTML = item8;
+        document.getElementById("qty8").innerHTML = val8;
+        document.getElementById("total8").innerHTML = a8;
+      }
+      else{
+        alert("Please Select Quantity Of Item 08...!!!")
+      }
+    }
+      var che9=document.getElementById("c9");
+      if (che9.checked == true) {
+      var val9 = document.getElementById("q9").value;
+        var item9 = 100;
+        var a9 = val9 * item9;
+        sum=sum+a9;
+        if(val9!=0){
+        document.getElementById("item9").innerHTML = "item09";
+        document.getElementById("price9").innerHTML = item9;
+        document.getElementById("qty9").innerHTML = val9;
+        document.getElementById("total9").innerHTML = a9;
+      }
+      else{
+        alert("Please Select Quantity Of Item 09...!!!")
+      }
+    }
+    var che10=document.getElementById("c10");
+    if (che10.checked == true) {
+    var val10 = document.getElementById("q10").value;
+    var item10 = 100;
+    var a10 = val10 * item10;
+    sum=sum+a10;
+        if(val10!=0){
+        document.getElementById("item10").innerHTML = "item10";
+        document.getElementById("price10").innerHTML = item10;
+        document.getElementById("qty10").innerHTML = val10;
+        document.getElementById("total10").innerHTML = a10;
+      }
+      else{
+        alert("Please Select Quantity Of Item 10...!!!")
+      }
+    }
+      var che11=document.getElementById("c11");
+      if (che11.checked == true) {
+      var val11 = document.getElementById("q11").value;
+      var item11 = 100;
+      var a11 = val11 * item11;
+      sum=sum+a11;
+        if(val11!=0){
+        document.getElementById("item11").innerHTML = "item11";
+        document.getElementById("price11").innerHTML = item11;
+        document.getElementById("qty11").innerHTML = val11;
+        document.getElementById("total11").innerHTML = a11;
+      }
+      else{
+        alert("Please Select Quantity Of Item 11...!!!")
+      }
+    }
+    var che12=document.getElementById("c12");
+    if (che12.checked == true) {  
+    var val12 = document.getElementById("q12").value;
+    var item12 = 100;
+    var a12 = val12 * item12;
+    sum=sum+a12;
+        if(val12!=0){
+        document.getElementById("item12").innerHTML = "item12";
+        document.getElementById("price12").innerHTML = item12;
+        document.getElementById("qty12").innerHTML = val12;
+        document.getElementById("total12").innerHTML = a12;
+      }
+      else{
+        alert("Please Select Quantity Of Item 12...!!!")
+      }
+    }
+    var che13=document.getElementById("c13");
+    if (che13.checked == true) {
+        var val13 = document.getElementById("q13").value;
+        var item13 = 100;
+        var a13 = val13 * item13;
+        sum=sum+a13;
+        if(val13!=0){
+          document.getElementById("sp1").innerHTML = "1."
+        document.getElementById("item13").innerHTML = "item13";
+        document.getElementById("price13").innerHTML = item13;
+        document.getElementById("qty13").innerHTML = val13;
+        document.getElementById("total13").innerHTML = a13;
+      }
+      else{
+        alert("Please Select Quantity Of Item 13...!!!")
+      }
+    }
+    var che14=document.getElementById("c14");
+    if (che14.checked == true) {
+      var val14 = document.getElementById("q14").value;
+      var item14 = 100;
+      var a14 = val14 * item14;
+      sum=sum+a14;
+        if(val14!=0){
+         
+        document.getElementById("item14").innerHTML = "item14";
+        document.getElementById("price14").innerHTML = item14;
+        document.getElementById("qty14").innerHTML = val14;
+        document.getElementById("total14").innerHTML = a14;
+      }
+      else{
+        alert("Please Select Quantity Of Item 14...!!!")
+      }
+    }
+      var che15=document.getElementById("c15");
+      if (che15.checked == true) {  
+        var val15 = document.getElementById("q15").value;
+        var item15 = 100;
+        var a15 = val15 * item15;
+        sum=sum+a15;
+        if(val15!=0){
+          document.getElementById("sp2").innerHTML = "2."
+        document.getElementById("item15").innerHTML = "item15";
+        document.getElementById("price15").innerHTML = item15;
+        document.getElementById("qty15").innerHTML = val15;
+        document.getElementById("total15").innerHTML = a15;
+      }
+      else{
+        alert("Please Select Quantity Of Item 15...!!!")
+      }
+    }
+    var che16=document.getElementById("c16");
+    if (che16.checked == true) {
+      var val16 = document.getElementById("q16").value;
+      var item16 = 100;
+      var a16 = val16 * item16;
+      sum=sum+a16;
+        if(val16!=0){
+          document.getElementById("item16").innerHTML = "item16";
+      document.getElementById("price16").innerHTML = item16;
+        document.getElementById("qty16").innerHTML = val16;
+        document.getElementById("total16").innerHTML = a16;
+      }
+      else{
+        alert("Please Select Quantity Of Item 16...!!!")
+      }
+    }
+
+    
+  }
+  function cw(){
+    alert("total price : "+sum)
+    document.getElementById("sum1").innerHTML=sum;
+    
+  }
+    
+  </script>
+  
+</body>
+</html>
